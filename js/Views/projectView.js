@@ -39,7 +39,7 @@ class ProjectView {
         return `<div class="project" data-projectid="${project.id}">
       <img
         class="project-image"
-        src="${this._data.image}"
+        src="${project._data.image}"
         alt="${project.imageAlt}"
       />
       <div class="project-title-icon">
