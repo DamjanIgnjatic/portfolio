@@ -18,58 +18,57 @@
     <script type="module" src="js/controller.js"></script>
   </head>
   <body>
-    <article>
-      <header class="header">
-        <nav class="main-nav">
-          <ul class="main-nav-list">
-            <li><a class="main-nav-link" href="#projects">Projects</a></li>
-            <li><a class="main-nav-link" href="#skills">Skills</a></li>
-            <li><a class="main-nav-link" href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="btn-mobile-nav">
-          <img
-            class="icon-mobile-nav open-nav"
-            src="img/menu.png"
-            alt="Open mobile menu icon"
-          />
-          <img
-            class="icon-mobile-nav close-nav"
-            src="img/menu-close.png"
-            alt="Close mobile menu icon"
-          />
-        </div>
-      </header>
+    <header class="header">
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#projects">Projects</a></li>
+          <li><a class="main-nav-link" href="#skills">Skills</a></li>
+          <li><a class="main-nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="btn-mobile-nav">
+        <img
+          class="icon-mobile-nav open-nav"
+          src="img/menu.png"
+          alt="Open mobile menu icon"
+        />
+        <img
+          class="icon-mobile-nav close-nav"
+          src="img/menu-close.png"
+          alt="Close mobile menu icon"
+        />
+      </div>
+    </header>
 
-      <main>
-        <section class="section-hero">
-          <div class="content container">
-            <div class="hero-description">
-              <div class="description-header">
-                <img class="hero-icon" src="img/hello-icon.png" alt="Hy icon" />
-                <p class="subheading">Hello, I'm</p>
-              </div>
-
-              <div class="me">
-                <h1 class="name">Damjan</h1>
-                <p class="job">&#60;&#62;Web Developer&#60;&#47;&#62;</p>
-              </div>
+    <main>
+      <section class="section-hero">
+        <div class="content container">
+          <div class="hero-description">
+            <div class="description-header">
+              <img class="hero-icon" src="img/hello-icon.png" alt="Hy icon" />
+              <p class="subheading">Hello, I'm</p>
             </div>
 
-            <div class="hero-image">
-              <img src="img/coding.png" alt="Computer image" />
+            <div class="me">
+              <h1 class="name">Damjan</h1>
+              <p class="job">&#60;&#62;Web Developer&#60;&#47;&#62;</p>
             </div>
           </div>
-        </section>
 
-        <section class="section-project" id="projects">
-          <div class="container">
-            <div class="heading">
-              <h2 class="heading-secondary">Projects</h2>
-            </div>
+          <div class="hero-image">
+            <img src="img/coding.png" alt="Computer image" />
+          </div>
+        </div>
+      </section>
 
-            <div class="projects grid--2-col">
-              <!-- <div class="project">
+      <section class="section-project" id="projects">
+        <div class="container">
+          <div class="heading">
+            <h2 class="heading-secondary">Projects</h2>
+          </div>
+
+          <div class="projects grid--2-col">
+            <!-- <div class="project">
                 <img
                   class="project-image"
                   src="img/pr-image.jpg"
@@ -121,11 +120,11 @@
                   <p class="project-title">Bankist App</p>
                 </div>
               </div> -->
-            </div>
           </div>
+        </div>
 
-          <div class="modal hidden">
-            <!-- <div class="modal-content">
+        <div class="modal hidden">
+          <!-- <div class="modal-content">
               <div class="modal-header">
                 <img src="img/pr-image.jpg" />
               </div>
@@ -161,89 +160,88 @@
                 </div>
               </div>
             </div> -->
-          </div>
+        </div>
 
-          <div class="overlay hidden"></div>
-        </section>
+        <div class="overlay hidden"></div>
+      </section>
 
-        <section class="section-skills" id="skills">
-          <div class="container">
-            <div class="heading">
-              <h2 class="heading-secondary">Skills</h2>
-            </div>
-
-            <div class="icons">
-              <div class="icon">
-                <div class="icon-text">
-                  <img src="img/html.png" alt="Html Icon" />
-                  <p class="uppercase">Html 5</p>
-                </div>
-
-                <div class="icon-text">
-                  <img src="img/css.png" alt="Css Icon" />
-                  <p class="uppercase">Css 3</p>
-                </div>
-
-                <div class="icon-text">
-                  <img src="img/sass.png" alt="Github Icon" />
-                  <p>sass</p>
-                </div>
-
-                <div class="icon-text">
-                  <img src="img/javascript.png" alt="JavaScript Icon" />
-                  <p>JavaScript</p>
-                </div>
-              </div>
-
-              <div class="icon">
-                <div class="icon-text">
-                  <img src="img/wordpress.png" alt="Wordpress icon" />
-                  <p>WordPress</p>
-                </div>
-
-                <div class="icon-text">
-                  <img src="img/figma.png" alt="Figma Icon" />
-                  <p>Figma</p>
-                </div>
-
-                <div class="icon-text">
-                  <img src="img/box.png" alt="Parcel Icon" />
-                  <p>Parcel</p>
-                </div>
-
-                <div class="icon-text">
-                  <img src="img/GitHub.png" alt="Gihub Icon" />
-                  <p>Github</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer class="footer" id="contact">
+      <section class="section-skills" id="skills">
         <div class="container">
           <div class="heading">
-            <h2 class="heading-secondary">Contact</h2>
+            <h2 class="heading-secondary">Skills</h2>
           </div>
 
-          <div class="contact">
-            <a href="https://github.com/DamjanIg" target="_blank"
-              ><img src="img/GitHub.png" alt="Github Icon"
-            /></a>
+          <div class="icons">
+            <div class="icon">
+              <div class="icon-text">
+                <img src="img/html.png" alt="Html Icon" />
+                <p class="uppercase">Html 5</p>
+              </div>
 
-            <a
-              href="https://www.linkedin.com/in/damjan-ignjati%C4%87-498a25204/"
-              target="_blank"
-              ><img src="img/Linkedin.png" alt="LinkedIn Icon"
-            /></a>
+              <div class="icon-text">
+                <img src="img/css.png" alt="Css Icon" />
+                <p class="uppercase">Css 3</p>
+              </div>
 
-            <a href="mailto:dignjatic51@gmail.com"
-              ><img src="img/outlook.png" alt="Outlook Icon"
-            /></a>
+              <div class="icon-text">
+                <img src="img/sass.png" alt="Github Icon" />
+                <p>sass</p>
+              </div>
+
+              <div class="icon-text">
+                <img src="img/javascript.png" alt="JavaScript Icon" />
+                <p>JavaScript</p>
+              </div>
+            </div>
+
+            <div class="icon">
+              <div class="icon-text">
+                <img src="img/wordpress.png" alt="Wordpress icon" />
+                <p>WordPress</p>
+              </div>
+
+              <div class="icon-text">
+                <img src="img/figma.png" alt="Figma Icon" />
+                <p>Figma</p>
+              </div>
+
+              <div class="icon-text">
+                <img src="img/box.png" alt="Parcel Icon" />
+                <p>Parcel</p>
+              </div>
+
+              <div class="icon-text">
+                <img src="img/GitHub.png" alt="Gihub Icon" />
+                <p>Github</p>
+              </div>
+            </div>
           </div>
         </div>
-      </footer>
-    </article>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="container">
+        <div class="heading">
+          <h2 class="heading-secondary">Contact</h2>
+        </div>
+
+        <div class="contact">
+          <a href="https://github.com/DamjanIg" target="_blank"
+            ><img src="img/GitHub.png" alt="Github Icon"
+          /></a>
+
+          <a
+            href="https://www.linkedin.com/in/damjan-ignjati%C4%87-498a25204/"
+            target="_blank"
+            ><img src="img/Linkedin.png" alt="LinkedIn Icon"
+          /></a>
+
+          <a href="mailto:dignjatic51@gmail.com"
+            ><img src="img/outlook.png" alt="Outlook Icon"
+          /></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
