@@ -1,7 +1,7 @@
 import forkifyImage from "../img/forkify-app.png";
 import bankistImage from "../img/pr-image.jpg";
 import bankistWebImage from "../img/pr-image.jpg";
-import omniFoodImage from "../img/pr-image.jpg";
+import omniFoodImage from "../img/omnifood.png";
 
 export const state = {
   projects: [
@@ -17,12 +17,12 @@ export const state = {
     },
     {
       id: 2,
-      title: "Bankist App",
-      image: bankistImage,
-      imageAlt: "Bankist App Image",
-      description: "TEST 2",
-      gitUrl: "https://google.com/",
-      webUrl: "https://www.youtube.com/",
+      title: "Omnifood",
+      image: omniFoodImage,
+      imageAlt: "Omnifood Website Image",
+      description: "TEST 4",
+      gitUrl: "https://github.com/DamjanIgnjatic/omnifood-project",
+      webUrl: "https://omnifood-project-damjan.netlify.app/",
     },
     {
       id: 3,
@@ -35,11 +35,11 @@ export const state = {
     },
     {
       id: 4,
-      title: "Omnifood",
-      image: omniFoodImage,
-      imageAlt: "Omnifood Website Image",
-      description: "TEST 4",
-      gitUrl: " https://google.com/",
+      title: "Bankist App",
+      image: bankistImage,
+      imageAlt: "Bankist App Image",
+      description: "TEST 2",
+      gitUrl: "https://google.com/",
       webUrl: "https://www.youtube.com/",
     },
   ],
