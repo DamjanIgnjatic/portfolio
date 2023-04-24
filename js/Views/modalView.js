@@ -25,7 +25,7 @@ class ModalView {
     return `
        <div class="modal-content" data-id=${this._data.id}>
           <div class="modal-header">
-            <img src=${this.data.image} />
+            <img src=${this._data.image} />
           </div>
 
           <div class="modal-description">
