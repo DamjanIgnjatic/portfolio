@@ -1,4 +1,3 @@
-import image from "../../img/forkify-app.png";
 import iconWeb from "../../img/www.png";
 import gitIcon from "../../img/GitHub.png";
 
@@ -26,7 +25,7 @@ class ModalView {
     return `
        <div class="modal-content" data-id=${this._data.id}>
           <div class="modal-header">
-            <img src=${image} />
+            <img src=${this.data.image} />
           </div>
 
           <div class="modal-description">
