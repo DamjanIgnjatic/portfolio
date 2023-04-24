@@ -1,7 +1,7 @@
 import forkifyImage from "../img/forkify-app.png";
 import bankistImage from "../img/pr-image.jpg";
 import bankistWebImage from "../img/pr-image.jpg";
-import omniFoodImage from "../img/omnifood.png";
+import omniFoodImage from "../img/omnifood-project.png";
 
 export const state = {
   projects: [
