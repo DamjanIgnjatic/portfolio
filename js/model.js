@@ -3,7 +3,7 @@ export const state = {
     {
       id: 1,
       title: "Frokify App",
-      image: "../img/forkify-app.png/",
+      image: "../img/forkify-app.png",
       imageAlt: "Forkify App Image",
       description:
         "This web app allows users to search for recipes and add their own recipes. With an intuitive user interface and extensive recipe database, users can easily find and share their favorite dishes.",
@@ -13,7 +13,7 @@ export const state = {
     {
       id: 2,
       title: "Bankist App",
-      image: "../img/pr-image.jpg/",
+      image: "../img/pr-image.jpg",
       imageAlt: "Bankist App Image",
       description: "TEST 2",
       gitUrl: "https://google.com/",
@@ -31,7 +31,7 @@ export const state = {
     {
       id: 4,
       title: "Omnifood",
-      image: "../img/pr-image.jpg/",
+      image: "../img/pr-image.jpg",
       imageAlt: "Omnifood Website Image",
       description: "TEST 4",
       gitUrl: " https://google.com/",
