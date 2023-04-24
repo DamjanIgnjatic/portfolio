@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Damjan Ignjatic",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.29.1",
+    "parcel": "^2.8.3",
+    "sass": "^1.59.3"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.8.3",
+    "@parcel/transformer-webmanifest": "^2.8.3"
+  }
+}

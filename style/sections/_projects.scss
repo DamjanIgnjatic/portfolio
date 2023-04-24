@@ -1,0 +1,61 @@
+@import "../general/variables";
+
+.section-project {
+  padding: 9.6rem 0;
+  position: relative;
+  @media (max-width: 768px) {
+    padding: 7.6rem 0;
+  }
+  .project {
+    &:nth-child(odd) {
+      justify-self: end;
+      @media (max-width: 996px) {
+        justify-self: center;
+      }
+    }
+
+    &:nth-child(even) {
+      justify-self: start;
+      @media (max-width: 996px) {
+        justify-self: center;
+      }
+    }
+
+    .project-image {
+      width: 100%;
+      border-radius: 9px 9px 0 0;
+      display: block;
+    }
+
+    .project-title-icon {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+
+      border-radius: 0 0 12px 12px;
+      background-color: $project-icon-background;
+      padding: 1.4rem 0 1rem 1.3rem;
+
+      @media (max-width: 420px) {
+        gap: 0.5rem;
+      }
+
+      .eye-icon {
+        width: 1.8rem;
+        height: 1.2rem;
+      }
+
+      .project-title {
+        font-size: 2rem;
+
+        @media (max-width: 768px) {
+          font-size: 1.8rem;
+        }
+
+        @media (max-width: 576px) {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+}

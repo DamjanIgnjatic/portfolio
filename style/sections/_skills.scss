@@ -1,0 +1,62 @@
+@import "../general/variables";
+
+.section-skills {
+  padding: 9.6rem 0;
+  @media (max-width: 768px) {
+    padding: 7.6rem 0;
+  }
+  .container {
+    .icons {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 5rem;
+
+      @media (max-width: 576px) {
+        column-gap: 3rem;
+      }
+
+      .icon {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+        &:nth-child(even) {
+          justify-self: start;
+        }
+
+        &:nth-child(odd) {
+          justify-self: end;
+        }
+        .icon-text {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          border: 3px solid $skills-boredr-color;
+          border-radius: 8px;
+          padding: 1rem;
+          @media (max-width: 576px) {
+            padding: 0.5rem;
+          }
+
+          img {
+            width: 4rem;
+            height: 4rem;
+            @media (max-width: 576px) {
+              width: 3rem;
+              height: 3rem;
+            }
+          }
+
+          p {
+            font-size: 2rem;
+            color: $main-white;
+
+            @media (max-width: 576px) {
+              font-size: 1.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

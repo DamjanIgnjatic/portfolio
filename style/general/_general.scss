@@ -1,0 +1,212 @@
+// COLORS
+@import "./variables";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1;
+  color: $main-white;
+  font-family: sans-serif;
+  font-weight: 400;
+  background: $background-color;
+  overflow-x: hidden;
+}
+
+/////////////////////////////////
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid--2-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  @media (max-width: 996px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.heading-secondary {
+  font-size: 4rem;
+  position: relative;
+  margin-bottom: 3.5rem;
+  @media (max-width: 576px) {
+    font-size: 3.6rem;
+  }
+  &::before {
+    content: "";
+    width: 12.5rem;
+    height: 1rem;
+    background: $heading-border;
+    position: absolute;
+    bottom: -55%;
+    box-shadow: 0 0 1.4rem $heading-shadow;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5rem;
+  }
+}
+
+.heading {
+  text-align: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+
+  max-width: 80rem;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    padding: 2rem 3rem;
+  }
+
+  @media (max-width: 420px) {
+    max-width: 32rem;
+    padding: 1rem 2rem;
+  }
+
+  .modal-content {
+    background-color: $background-modal;
+
+    padding: 2rem 5rem;
+    border-radius: 12px;
+
+    @media (max-width: 768px) {
+      padding: 2rem 3rem;
+    }
+
+    @media (max-width: 420px) {
+      padding: 1rem 2rem;
+    }
+  }
+
+  .modal-header {
+    margin-bottom: 1rem;
+    img {
+      width: 100%;
+    }
+  }
+  .modal-description {
+    .description {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+
+      margin-bottom: 9.3rem;
+
+      @media (max-width: 768px) {
+        margin-bottom: 7.3rem;
+      }
+
+      @media (max-width: 576px) {
+        font-size: 1.8rem;
+        margin-bottom: 5.3rem;
+      }
+
+      @media (max-width: 420px) {
+        font-size: 1.6rem;
+        line-height: 1.9;
+        margin-bottom: 3.6rem;
+      }
+
+      @media (max-width: 420px) {
+        gap: 0;
+      }
+
+      .project-title {
+        font-size: 3.2rem;
+        color: $main-white;
+
+        @media (max-width: 768px) {
+          font-size: 3rem;
+        }
+
+        @media (max-width: 576px) {
+          font-size: 2.6rem;
+        }
+
+        @media (max-width: 420px) {
+          font-size: 2rem;
+          line-height: 2.4;
+        }
+      }
+
+      .project-description {
+        color: $main-white;
+        font-size: 2rem;
+        align-self: flex-start;
+      }
+    }
+
+    .project-links {
+      display: grid;
+      column-gap: 2rem;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+
+      @media (max-width: 576px) {
+        gap: 1rem;
+        grid-template-columns: 1fr;
+      }
+
+      .project-link {
+        width: 100%;
+        &:link,
+        &:visited {
+          color: $main-white;
+          font-size: 2rem;
+          padding: 1rem 0rem;
+          background-color: $background-link;
+          text-decoration: none;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          justify-content: center;
+        }
+
+        img {
+          @media (max-width: 768px) {
+            width: 2.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $background-overlay;
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}

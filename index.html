@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to my portfolio website! As a junior frontend developer, I am passionate about crafting beautiful and intuitive web experiences. Explore my projects to see my skills in action and get a sense of my design aesthetic. From responsive layouts to interactive animations, I am committed to delivering high-quality code that elevates user experiences. Let's collaborate and bring your web vision to life!"
+    />
+    <link href="style/main.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" href="./favicons/favicon-ios-home.png" />
+    <link rel="icon" href="./favicons/favicon-browsers.png" />
+    <link rel="mainfest" href="manifest.webmanifest" />
+
+    <title>Damjan Ignjatić</title>
+
+    <script type="module" src="js/controller.js"></script>
+  </head>
+  <body>
+    <article>
+      <header class="header nav-open">
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#">About</a></li>
+            <li><a class="main-nav-link" href="#projects">Projects</a></li>
+            <li><a class="main-nav-link" href="#skills">Skills</a></li>
+            <li><a class="main-nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="btn-mobile-nav">
+          <img
+            class="icon-mobile-nav open-nav"
+            src="img/menu.png"
+            alt="Open mobile menu icon"
+          />
+          <img
+            class="icon-mobile-nav close-nav"
+            src="img/menu-close.png"
+            alt="Close mobile menu icon"
+          />
+        </div>
+      </header>
+
+      <main>
+        <section class="section-hero">
+          <div class="content container">
+            <div class="hero-description">
+              <div class="description-header">
+                <img class="hero-icon" src="img/hello-icon.png" alt="Hy icon" />
+                <p class="subheading">Hello, I'm</p>
+              </div>
+
+              <div class="me">
+                <h1 class="name">Damjan</h1>
+                <p class="job">&#60;&#62;Web Developer&#60;&#47;&#62;</p>
+              </div>
+            </div>
+
+            <div class="hero-image">
+              <img src="img/coding.png" alt="Computer image" />
+            </div>
+          </div>
+        </section>
+
+        <section class="section-project" id="projects">
+          <div class="container">
+            <div class="heading">
+              <h2 class="heading-secondary">Projects</h2>
+            </div>
+
+            <div class="projects grid--2-col">
+              <!-- <div class="project">
+                <img
+                  class="project-image"
+                  src="img/pr-image.jpg"
+                  alt="Forkify Project Image"
+                />
+                <div class="project-title-icon">
+                  <img class="eye-icon" src="img/icon.png" alt="Eye icom" />
+                  <p class="project-title">Forkify App</p>
+                </div>
+              </div>
+
+              <div class="project">
+                <img
+                  class="project-image"
+                  src="img/pr-image.jpg"
+                  alt="Forkify Project Image"
+                />
+                <div class="project-title-icon">
+                  <img src="img/icon.png" alt="Eye icom" />
+                  <p class="project-title">Omnifood Website</p>
+                </div>
+              </div>
+
+              <div class="project">
+                <img
+                  class="project-image"
+                  src="img/pr-image.jpg"
+                  alt="Forkify Project Image"
+                />
+                <div class="project-title-icon">
+                  <img class="eye-icon" src="img/icon.png" alt="Eye icom" />
+                  <p class="project-title">Bankist website</p>
+                </div>
+              </div>
+
+              <div class="project">
+                <img
+                  class="project-image"
+                  src="img/pr-image.jpg"
+                  alt="Forkify Project Image"
+                />
+
+                <div class="project-title-icon">
+                  <img
+                    class="test eye-icon"
+                    src="img/icon.png"
+                    alt="Eye icom"
+                  />
+                  <p class="project-title">Bankist App</p>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="modal hidden">
+            <!-- <div class="modal-content">
+              <div class="modal-header">
+                <img src="img/pr-image.jpg" />
+              </div>
+
+              <div class="modal-description">
+                <div class="description">
+                  <p class="project-title">Forkify App</p>
+                  <p class="project-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Consectetur, aspernatur dignissimos quod, ab iste, molestiae
+                    perferendis quo blanditiis labore a explicabo. Perferendis vel
+                    iure itaque odio, mollitia eligendi dignissimos debitis.
+                  </p>
+                </div>
+              
+              
+                <div class="project-links">
+                  
+                    <a class="project-link" href="#"
+                      ><img
+                        src="img/GitHub.png"
+                        alt="GitHub Icon"
+                      />
+                      
+                      <p>Repository</p>
+                </a>
+                    
+                    <a class="project-link" href="#">  
+                      <img src="img/www.png" alt="Web Icon" />
+                      <p>Demo</p>
+                    </a>
+                 
+                </div>
+              </div>
+            </div> -->
+          </div>
+
+          <div class="overlay hidden"></div>
+        </section>
+
+        <section class="section-skills" id="skills">
+          <div class="container">
+            <div class="heading">
+              <h2 class="heading-secondary">Skills</h2>
+            </div>
+
+            <div class="icons">
+              <div class="icon">
+                <div class="icon-text">
+                  <img src="img/html.png" alt="Html Icon" />
+                  <p class="uppercase">Html 5</p>
+                </div>
+
+                <div class="icon-text">
+                  <img src="img/css.png" alt="Css Icon" />
+                  <p class="uppercase">Css 3</p>
+                </div>
+
+                <div class="icon-text">
+                  <img src="img/sass.png" alt="Github Icon" />
+                  <p>sass</p>
+                </div>
+
+                <div class="icon-text">
+                  <img src="img/javascript.png" alt="JavaScript Icon" />
+                  <p>JavaScript</p>
+                </div>
+              </div>
+
+              <div class="icon">
+                <div class="icon-text">
+                  <img src="img/wordpress.png" alt="Wordpress icon" />
+                  <p>WordPress</p>
+                </div>
+
+                <div class="icon-text">
+                  <img src="img/figma.png" alt="Figma Icon" />
+                  <p>Figma</p>
+                </div>
+
+                <div class="icon-text">
+                  <img src="img/box.png" alt="Parcel Icon" />
+                  <p>Parcel</p>
+                </div>
+
+                <div class="icon-text">
+                  <img src="img/GitHub.png" alt="Gihub Icon" />
+                  <p>Github</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer" id="contact">
+        <div class="container">
+          <div class="heading">
+            <h2 class="heading-secondary">Contact</h2>
+          </div>
+
+          <div class="contact">
+            <a href="https://github.com/DamjanIg" target="_blank"
+              ><img src="img/GitHub.png" alt="Github Icon"
+            /></a>
+
+            <a
+              href="https://www.linkedin.com/in/damjan-ignjati%C4%87-498a25204/"
+              target="_blank"
+              ><img src="img/Linkedin.png" alt="LinkedIn Icon"
+            /></a>
+
+            <a href="mailto:dignjatic51@gmail.com"
+              ><img src="img/outlook.png" alt="Outlook Icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </body>
+</html>

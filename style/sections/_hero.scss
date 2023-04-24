@@ -1,0 +1,113 @@
+@import "../general/variables";
+
+.section-hero {
+  padding: 9.6rem 0;
+  @media (max-width: 768px) {
+    padding: 7.6rem 0;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @media (max-width: 996px) {
+      grid-template-columns: 1fr;
+      row-gap: 5.3rem;
+      text-align: center;
+    }
+
+    .hero-description {
+      justify-self: center;
+      align-self: center;
+      .description-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 0.8rem;
+
+        .hero-icon {
+          width: 5.5rem;
+          @media (max-width: 996px) {
+            width: 5rem;
+          }
+
+          @media (max-width: 768px) {
+            width: 4rem;
+          }
+
+          @media (max-width: 576px) {
+            width: 3.2rem;
+          }
+        }
+
+        .subheading {
+          font-size: 3.2rem;
+
+          @media (max-width: 996px) {
+            font-size: 2.8rem;
+          }
+
+          @media (max-width: 768px) {
+            font-size: 2.6rem;
+          }
+
+          @media (max-width: 576px) {
+            font-size: 2rem;
+          }
+        }
+      }
+
+      .me {
+        .name {
+          font-size: 8rem;
+          color: $main-white;
+          margin-bottom: 1.6rem;
+
+          @media (max-width: 996px) {
+            font-size: 6rem;
+          }
+          @media (max-width: 768px) {
+            font-size: 5rem;
+          }
+          @media (max-width: 576px) {
+            font-size: 4rem;
+          }
+        }
+
+        .job {
+          font-size: 3.2rem;
+          color: $job-color;
+
+          @media (max-width: 996px) {
+            font-size: 2.8rem;
+          }
+
+          @media (max-width: 768px) {
+            font-size: 2.6rem;
+          }
+
+          @media (max-width: 576px) {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+
+    .hero-image {
+      img {
+        width: 30rem;
+        height: 37rem;
+
+        @media (max-width: 996px) {
+          width: 25rem;
+          height: 32rem;
+        }
+
+        @media (max-width: 576px) {
+          width: 20rem;
+          height: 27rem;
+        }
+      }
+    }
+  }
+}
