@@ -3,7 +3,7 @@ export const state = {
     {
       id: 1,
       title: "Frokify App",
-      image: "../img/pr-image.jpg/",
+      image: "../img/forkify-app.png/",
       imageAlt: "Forkify App Image",
       description: "TEST 1",
       gitUrl: "https://google.com/",
