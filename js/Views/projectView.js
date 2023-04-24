@@ -1,4 +1,3 @@
-import image from "../../img/forkify-app.png";
 import icon from "../../img/icon.png";
 
 class ProjectView {
@@ -40,7 +39,7 @@ class ProjectView {
         return `<div class="project" data-projectid="${project.id}">
       <img
         class="project-image"
-        src=${image}
+        src=${this._data.image}
         alt="${project.imageAlt}"
       />
       <div class="project-title-icon">
