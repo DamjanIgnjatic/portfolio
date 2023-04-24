@@ -36,6 +36,7 @@ class ProjectView {
     return `
     ${this._data
       .map((project) => {
+        console.log(project);
         return `<div class="project" data-projectid="${project.id}">
       <img
         class="project-image"

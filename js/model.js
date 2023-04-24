@@ -1,19 +1,24 @@
+import forkifyImage from "../img/forkify-app.png";
+import bankistImage from "../img/pr-image.jpg";
+import bankistWebImage from "../img/pr-image.jpg";
+import omniFoodImage from "../img/pr-image.jpg";
+
 export const state = {
   projects: [
     {
       id: 1,
       title: "Frokify App",
-      image: "../img/forkify-app.png/",
+      image: forkifyImage,
       imageAlt: "Forkify App Image",
       description:
         "This web app allows users to search for recipes and add their own recipes. With an intuitive user interface and extensive recipe database, users can easily find and share their favorite dishes.",
-      gitUrl: "https://google.com/",
-      webUrl: "https://www.youtube.com/",
+      gitUrl: "https://github.com/DamjanIgnjatic/forkify-project",
+      webUrl: "https://forkify-project-damjan.netlify.app/",
     },
     {
       id: 2,
       title: "Bankist App",
-      image: "../img/pr-image.jpg/",
+      image: bankistImage,
       imageAlt: "Bankist App Image",
       description: "TEST 2",
       gitUrl: "https://google.com/",
@@ -22,7 +27,7 @@ export const state = {
     {
       id: 3,
       title: "Bankist Website",
-      image: "../img/pr-image.jpg/",
+      image: bankistWebImage,
       imageAlt: "Bankist Website Image",
       description: "TEST 3",
       gitUrl: "https://google.com/",
@@ -31,7 +36,7 @@ export const state = {
     {
       id: 4,
       title: "Omnifood",
-      image: "../img/pr-image.jpg/",
+      image: omniFoodImage,
       imageAlt: "Omnifood Website Image",
       description: "TEST 4",
       gitUrl: " https://google.com/",
