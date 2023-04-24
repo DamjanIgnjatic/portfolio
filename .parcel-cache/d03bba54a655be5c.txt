@@ -5,7 +5,7 @@
 79C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\features\map\update.js133233894571827918 0
 59C:\Users\Ignjatic\Desktop\Portfolio\node_modules\is-extglob133233893538843340 1
 96C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\transformer-json\lib\JSONTransformer.js133233893519699857 0
-40C:\Users\Ignjatic\Desktop\Portfolio\dist133268247011307595 1
+40C:\Users\Ignjatic\Desktop\Portfolio\dist133268248498353091 1
 58C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@lezer\lr133233893564207971 1
 79C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\weak-set\index.js133233894489492420 0
 61C:\Users\Ignjatic\Desktop\Portfolio\node_modules\htmlnano\lib133233893596673988 1
@@ -13,7 +13,7 @@
 69C:\Users\Ignjatic\Desktop\Portfolio\node_modules\picocolors\README.md133233893550105344 0
 99C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\features\intersectionobserver.js133233893911467523 0
 79C:\Users\Ignjatic\Desktop\Portfolio\node_modules\svgo\plugins\removeComments.js133233893702393357 0
-46C:\Users\Ignjatic\Desktop\Portfolio\.gitignore133268243615974168 0
+46C:\Users\Ignjatic\Desktop\Portfolio\.gitignore133268248170929449 0
 48C:\Users\Ignjatic\Desktop\Portfolio\package.json133268228356868995 0
 39C:\Users\Ignjatic\Desktop\Portfolio\img133268216027155638 1
 79C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\watcher\src\Watcher.cc133233893600104628 0
@@ -26,7 +26,7 @@
 85C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\string\virtual\index.js133233894489232366 0
 88C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\stable\typed-array\find-last.js133233894466487960 0
 93C:\Users\Ignjatic\Desktop\Portfolio\node_modules\dom-serializer\node_modules\entities\LICENSE133233893456399225 0
-57C:\Users\Ignjatic\Desktop\Portfolio\dist\box.83e187b1.png133268247007936940 0
+57C:\Users\Ignjatic\Desktop\Portfolio\dist\box.83e187b1.png133268248494722380 0
 44C:\Users\Ignjatic\Desktop\Portfolio\favicons133268213273881840 1
 46C:\Users\Ignjatic\Desktop\Portfolio\index.html133268217732066114 0
 102C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\features\stricttransportsecurity.js133233894054723942 0
@@ -230,7 +230,7 @@
 70C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@jridgewell\set-array133233893577470453 1
 94C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\features\dom-exception\constructor.js133233894426780546 0
 77C:\Users\Ignjatic\Desktop\Portfolio\node_modules\node-releases\data\processed133233893515919147 1
-61C:\Users\Ignjatic\Desktop\Portfolio\dist\outlook.da0f2980.png133268247007946952 0
+61C:\Users\Ignjatic\Desktop\Portfolio\dist\outlook.da0f2980.png133268248494722380 0
 55C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@babel133233893389546716 1
 83C:\Users\Ignjatic\Desktop\Portfolio\node_modules\node-addon-api\tools\conversion.js133233893608756231 0
 92C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\actual\dom-exception\constructor.js133233894426260429 0
@@ -854,7 +854,7 @@
 86C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\features\iterator\to-array.js133233894545342819 0
 80C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\stable\string\search.js133233894524909040 0
 91C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\modules\esnext.array.from-async.js133233894441063227 0
-70C:\Users\Ignjatic\Desktop\Portfolio\dist\favicon-ios-home.90705f00.png133268247007916936 0
+70C:\Users\Ignjatic\Desktop\Portfolio\dist\favicon-ios-home.90705f00.png133268248494672367 0
 69C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\stable\error133233894550463816 1
 66C:\Users\Ignjatic\Desktop\Portfolio\node_modules\terser\lib\cli.js133233893661065816 0
 64C:\Users\Ignjatic\Desktop\Portfolio\node_modules\yaml\types.d.ts133233893729488415 0
@@ -1407,7 +1407,7 @@
 73C:\Users\Ignjatic\Desktop\Portfolio\node_modules\to-regex-range\README.md133233893543974244 0
 130C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser\package.json133233893762984589 0
 78C:\Users\Ignjatic\Desktop\Portfolio\node_modules\csso\lib\replace\Dimension.js133233893665866613 0
-62C:\Users\Ignjatic\Desktop\Portfolio\dist\Linkedin.7883159b.png133268247007946952 0
+62C:\Users\Ignjatic\Desktop\Portfolio\dist\Linkedin.7883159b.png133268248494712381 0
 73C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\watcher\index.js133233893674788291 0
 84C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\actual\iterator\to-async.js133233894545422836 0
 72C:\Users\Ignjatic\Desktop\Portfolio\node_modules\csso\lib\clean\utils.js133233893709004602 0
@@ -1428,7 +1428,7 @@
 129C:\Users\Ignjatic\Desktop\Portfolio\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages-optional.cmd133233894077393378 0
 65C:\Users\Ignjatic\Desktop\Portfolio\node_modules\timsort\index.js133233893542504062 0
 67C:\Users\Ignjatic\Desktop\Portfolio\node_modules\domelementtype\lib133233893587592310 1
-59C:\Users\Ignjatic\Desktop\Portfolio\dist\figma.8b90b58e.png133268247007946952 0
+59C:\Users\Ignjatic\Desktop\Portfolio\dist\figma.8b90b58e.png133268248494702379 0
 88C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\actual\instance\reduce-right.js133233894520368160 0
 76C:\Users\Ignjatic\Desktop\Portfolio\node_modules\css-tree\lib\lexer\Lexer.js133233893743100943 0
 66C:\Users\Ignjatic\Desktop\Portfolio\node_modules\lmdb\util\when.js133233893792120043 0
@@ -1878,7 +1878,7 @@
 96C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\modules\es.object.prevent-extensions.js133233894436942432 0
 92C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\watcher\src\linux\InotifyBackend.cc133233893591913192 0
 86C:\Users\Ignjatic\Desktop\Portfolio\node_modules\source-map\dist\source-map.min.js.map133233893666606760 0
-57C:\Users\Ignjatic\Desktop\Portfolio\dist\www.1bc22290.png133268247007976939 0
+57C:\Users\Ignjatic\Desktop\Portfolio\dist\www.1bc22290.png133268248494722380 0
 80C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\actual\instance\trim.js133233894553924499 0
 63C:\Users\Ignjatic\Desktop\Portfolio\node_modules\semver\LICENSE133233893454898954 0
 86C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\internals\iterator-indexed.js133233894505835452 0
@@ -1971,7 +1971,7 @@
 85C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\stable\string\virtual\sub.js133233894543752524 0
 87C:\Users\Ignjatic\Desktop\Portfolio\node_modules\sass\types\logger\source_location.d.ts133233894243727845 0
 92C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\features\string\virtual\trim-end.js133233894551283980 0
-58C:\Users\Ignjatic\Desktop\Portfolio\dist\icon.0c6cf10b.png133268247008217005 0
+58C:\Users\Ignjatic\Desktop\Portfolio\dist\icon.0c6cf10b.png133268248494732400 0
 84C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\internals\array-for-each.js133233894412797830 0
 87C:\Users\Ignjatic\Desktop\Portfolio\node_modules\css-tree\lib\syntax\node\IdSelector.js133233893728428219 0
 68C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@lezer\lr\README.md133233893568368782 0
@@ -2600,7 +2600,7 @@
 91C:\Users\Ignjatic\Desktop\Portfolio\node_modules\lmdb\node_modules\node-addon-api\nothing.c133233893455419034 0
 102C:\Users\Ignjatic\Desktop\Portfolio\node_modules\lmdb\node_modules\node-addon-api\package-support.json133233893621218504 0
 82C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\string\trim-start.js133233894553794487 0
-70C:\Users\Ignjatic\Desktop\Portfolio\dist\favicon-browsers.2606309f.png133268247007916936 0
+70C:\Users\Ignjatic\Desktop\Portfolio\dist\favicon-browsers.2606309f.png133268248494672367 0
 85C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\stable\symbol\description.js133233894430511242 0
 78C:\Users\Ignjatic\Desktop\Portfolio\node_modules\abortcontroller-polyfill\dist133233893592053101 1
 91C:\Users\Ignjatic\Desktop\Portfolio\node_modules\lmdb\node_modules\node-addon-api\README.md133233893632640638 0
@@ -3295,7 +3295,7 @@
 85C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\proposals\async-iteration.js133233894414578170 0
 83C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\modules\es.string.match.js133233894438602755 0
 67C:\Users\Ignjatic\Desktop\Portfolio\node_modules\css-what\readme.md133233893623158835 0
-58C:\Users\Ignjatic\Desktop\Portfolio\dist\menu.2ff8e4d8.png133268247007926944 0
+58C:\Users\Ignjatic\Desktop\Portfolio\dist\menu.2ff8e4d8.png133268248494682370 0
 70C:\Users\Ignjatic\Desktop\Portfolio\node_modules\css-what\lib\commonjs133233893639271852 1
 86C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\typed-array\to-sorted.js133233894548483454 0
 76C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\actual\string\at.js133233894415258314 0
@@ -3725,7 +3725,7 @@
 88C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\stable\symbol\async-iterator.js133233894415068279 0
 77C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\stable\symbol\for.js133233894471838993 0
 81C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\stable\symbol\key-for.js133233894508816032 0
-63C:\Users\Ignjatic\Desktop\Portfolio\dist\index.9310b23e.css.map133268247011277601 0
+63C:\Users\Ignjatic\Desktop\Portfolio\dist\index.9310b23e.css.map133268248498323081 0
 81C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\features\array\concat.js133233894425790356 0
 83C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\stable\symbol\match-all.js133233894512916790 0
 79C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\stable\symbol\match.js133233894513276844 0
@@ -3867,7 +3867,7 @@
 90C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\stable\number\virtual\to-fixed.js133233894546012954 0
 81C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\string\fontcolor.js133233894469958638 0
 77C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\stable\math\asinh.js133233894414118095 0
-58C:\Users\Ignjatic\Desktop\Portfolio\dist\sass.09feda61.png133268247007936940 0
+58C:\Users\Ignjatic\Desktop\Portfolio\dist\sass.09feda61.png133268248494702379 0
 77C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\stable\math\atanh.js133233894416348525 0
 81C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\instance\pad-end.js133233894517017514 0
 93C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\modules\es.typed-array.int8-array.js133233894439943010 0
@@ -4502,7 +4502,7 @@
 101C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\features\css-content-visibility.js133233893801631755 0
 88C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\modules\esnext.json.raw-json.js133233894442623515 0
 89C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\features\symbol\async-dispose.js133233894414418145 0
-63C:\Users\Ignjatic\Desktop\Portfolio\dist\wordpress.3b852977.png133268247007936940 0
+63C:\Users\Ignjatic\Desktop\Portfolio\dist\wordpress.3b852977.png133268248494692379 0
 89C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\modules\esnext.map.delete-all.js133233894442663488 0
 77C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\logger\lib\Logger.js133233893520179951 0
 86C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\modules\esnext.map.emplace.js133233894442683513 0
@@ -4906,7 +4906,7 @@
 66C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\json133233894549533652 1
 68C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\number133233894546903153 1
 71C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\README.md133233894580639591 0
-74C:\Users\Ignjatic\Desktop\Portfolio\dist\favicon-android-home.e01608e0.png133268247007916936 0
+74C:\Users\Ignjatic\Desktop\Portfolio\dist\favicon-android-home.e01608e0.png133268248494682370 0
 65C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\set133233894564616540 1
 77C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\set-interval.js133233894525539162 0
 68C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\string133233894554194544 1
@@ -5096,7 +5096,7 @@
 82C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\reflect\construct.js133233894426120392 0
 88C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\reflect\define-metadata.js133233894428900935 0
 85C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\instance\code-points.js133233894425120208 0
-57C:\Users\Ignjatic\Desktop\Portfolio\dist\css.a828eef4.png133268247007936940 0
+57C:\Users\Ignjatic\Desktop\Portfolio\dist\css.a828eef4.png133268248494692379 0
 96C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\core\src\requests\WriteBundleRequest.js133233893829937034 0
 88C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\reflect\delete-property.js133233894430111166 0
 94C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\features\form-validation.js133233893881471901 0
@@ -5139,7 +5139,7 @@
 85C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\object\lookup-setter.js133233894511006403 0
 76C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\object\seal.js133233894524448956 0
 88C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\object\set-prototype-of.js133233894526179319 0
-62C:\Users\Ignjatic\Desktop\Portfolio\dist\pr-image.a5cdca04.jpg133268247007946952 0
+62C:\Users\Ignjatic\Desktop\Portfolio\dist\pr-image.a5cdca04.jpg133268248494742387 0
 83C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\number\constructor.js133233894427090581 0
 83C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\full\number\from-string.js133233894472449176 0
 96C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\resolver-default\lib\DefaultResolver.js133233893519829878 0
@@ -5461,7 +5461,7 @@
 80C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\features\string\bold.js133233894420759370 0
 89C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\features\string\code-point-at.js133233894424750121 0
 84C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\features\string\fontsize.js133233894470188678 0
-58C:\Users\Ignjatic\Desktop\Portfolio\dist\html.9cd5eaca.png133268247007926944 0
+58C:\Users\Ignjatic\Desktop\Portfolio\dist\html.9cd5eaca.png133268248494682370 0
 91C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\features\string\from-code-point.js133233894472249086 0
 83C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\packager-js\src\helpers.js133233893600114625 0
 90C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\features\string\is-well-formed.js133233894503335035 0
@@ -6451,7 +6451,7 @@
 96C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\resolver-default\src\DefaultResolver.js133233893538233220 0
 88C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\actual\async-iterator\reduce.js133233894520968284 0
 86C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\actual\async-iterator\take.js133233894544652702 0
-64C:\Users\Ignjatic\Desktop\Portfolio\dist\menu-close.a6ad62e4.png133268247007926944 0
+64C:\Users\Ignjatic\Desktop\Portfolio\dist\menu-close.a6ad62e4.png133268248494682370 0
 91C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\actual\array-buffer\constructor.js133233894426180401 0
 88C:\Users\Ignjatic\Desktop\Portfolio\node_modules\core-js\actual\array-buffer\detached.js133233894430551260 0
 128C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias\package.json133233893759924108 0
@@ -6588,7 +6588,7 @@
 101C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\features\page-transition-events.js133233894020567604 0
 80C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\regions\BG.js133233893733549160 0
 80C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\regions\BH.js133233893734349320 0
-60C:\Users\Ignjatic\Desktop\Portfolio\dist\coding.c42cbefb.png133268247007926944 0
+60C:\Users\Ignjatic\Desktop\Portfolio\dist\coding.c42cbefb.png133268248494682370 0
 80C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\regions\BI.js133233893735559558 0
 80C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\regions\BM.js133233893737880001 0
 80C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\regions\BN.js133233893738580102 0
@@ -6874,7 +6874,7 @@
 100C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\features\dom-manip-convenience.js133233893859142602 0
 88C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\features\dragndrop.js133233893859342641 0
 97C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\features\element-from-point.js133233893859872730 0
-60C:\Users\Ignjatic\Desktop\Portfolio\dist\GitHub.5fcea434.png133268247007956968 0
+60C:\Users\Ignjatic\Desktop\Portfolio\dist\GitHub.5fcea434.png133268248494712381 0
 82C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\features\eot.js133233893860082782 0
 82C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\features\es5.js133233893860352833 0
 88C:\Users\Ignjatic\Desktop\Portfolio\node_modules\caniuse-lite\data\features\es6-class.js133233893860402862 0
@@ -7516,7 +7516,7 @@
 89C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\runtime-browser-hmr\package.json133233893584151682 0
 80C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\runtime-browser-hmr\src133233893569899066 1
 77C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\resolver-default\lib133233893462690379 1
-69C:\Users\Ignjatic\Desktop\Portfolio\dist\favicon-android.f29d92a2.png133268247007916936 0
+69C:\Users\Ignjatic\Desktop\Portfolio\dist\favicon-android.f29d92a2.png133268248494672367 0
 81C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\resolver-default\LICENSE133233893455509055 0
 86C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\resolver-default\package.json133233893549245485 0
 80C:\Users\Ignjatic\Desktop\Portfolio\node_modules\@parcel\reporter-dev-server\src133233893630870285 1
@@ -7945,10 +7945,10 @@
 51C:\Users\Ignjatic\Desktop\Portfolio\img\outlook.png133235573882728780 0
 69C:\Users\Ignjatic\Desktop\Portfolio\favicons\favicon-android-home.png133268213273831840 0
 64C:\Users\Ignjatic\Desktop\Portfolio\favicons\favicon-android.png133268212983321692 0
-64C:\Users\Ignjatic\Desktop\Portfolio\dist\hello-icon.3dda6c42.png133268247007926944 0
-59C:\Users\Ignjatic\Desktop\Portfolio\dist\index.9310b23e.css133268247011117551 0
-58C:\Users\Ignjatic\Desktop\Portfolio\dist\index.c61807a5.js133268247011117551 0
-62C:\Users\Ignjatic\Desktop\Portfolio\dist\index.c61807a5.js.map133268247011257588 0
-51C:\Users\Ignjatic\Desktop\Portfolio\dist\index.html133268247011117551 0
-64C:\Users\Ignjatic\Desktop\Portfolio\dist\javascript.79de5278.png133268247007936940 0
-70C:\Users\Ignjatic\Desktop\Portfolio\dist\manifest.73fc52fa.webmanifest133268247011117551 0
+64C:\Users\Ignjatic\Desktop\Portfolio\dist\hello-icon.3dda6c42.png133268248494682370 0
+59C:\Users\Ignjatic\Desktop\Portfolio\dist\index.9310b23e.css133268248498133051 0
+58C:\Users\Ignjatic\Desktop\Portfolio\dist\index.c61807a5.js133268248498133051 0
+62C:\Users\Ignjatic\Desktop\Portfolio\dist\index.c61807a5.js.map133268248498323081 0
+51C:\Users\Ignjatic\Desktop\Portfolio\dist\index.html133268248498123052 0
+64C:\Users\Ignjatic\Desktop\Portfolio\dist\javascript.79de5278.png133268248494692379 0
+70C:\Users\Ignjatic\Desktop\Portfolio\dist\manifest.73fc52fa.webmanifest133268248498123052 0
