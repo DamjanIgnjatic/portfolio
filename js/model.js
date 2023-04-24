@@ -5,7 +5,8 @@ export const state = {
       title: "Frokify App",
       image: "../img/forkify-app.png/",
       imageAlt: "Forkify App Image",
-      description: "TEST 1",
+      description:
+        "This web app allows users to search for recipes and add their own recipes. With an intuitive user interface and extensive recipe database, users can easily find and share their favorite dishes.",
       gitUrl: "https://google.com/",
       webUrl: "https://www.youtube.com/",
     },
