@@ -1,4 +1,4 @@
-import image from "../../img/pr-image.jpg";
+import image from "../../img/forkify-app.png";
 import icon from "../../img/icon.png";
 
 class ProjectView {
