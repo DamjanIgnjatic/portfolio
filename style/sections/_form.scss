@@ -2,6 +2,9 @@
 
 .section-from {
   padding: 9.6rem 0;
+  @media (max-width: 768px) {
+    padding: 7.6rem 0;
+  }
 
   .form {
     display: flex;
@@ -46,6 +49,7 @@
       cursor: pointer;
       transition: all 0.4s;
       font-size: 1.6rem;
+      align-self: flex-start;
 
       &:hover {
         background-color: $nav-link-hover;

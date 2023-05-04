@@ -2,8 +2,36 @@
 
 .footer {
   padding: 9.6rem 0;
+  border-top: 1px solid $heading-border;
+  position: relative;
+
   @media (max-width: 768px) {
     padding: 7.6rem 0;
+  }
+
+  .arrow-icon {
+    position: absolute;
+    top: -21%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    border-radius: 50%;
+
+    @media (max-width: 768px) {
+      top: -25%;
+    }
+
+    img {
+      width: 5rem;
+      height: 5rem;
+      transition: all 0.4s;
+      background-color: $background-link;
+      border-radius: 50%;
+
+      &:hover {
+        transform: translateY(-0.5rem);
+      }
+    }
   }
   .contact {
     display: flex;

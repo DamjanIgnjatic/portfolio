@@ -552,11 +552,35 @@ body {
 /*COLORS*/
 .footer {
   padding: 9.6rem 0;
+  border-top: 1px solid #2c66c3;
+  position: relative;
 }
 @media (max-width: 768px) {
   .footer {
     padding: 7.6rem 0;
   }
+}
+.footer .arrow-icon {
+  position: absolute;
+  top: -21%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .footer .arrow-icon {
+    top: -25%;
+  }
+}
+.footer .arrow-icon img {
+  width: 5rem;
+  height: 5rem;
+  transition: all 0.4s;
+  background-color: #161b22;
+  border-radius: 50%;
+}
+.footer .arrow-icon img:hover {
+  transform: translateY(-0.5rem);
 }
 .footer .contact {
   display: flex;
@@ -576,6 +600,11 @@ body {
 /*COLORS*/
 .section-from {
   padding: 9.6rem 0;
+}
+@media (max-width: 768px) {
+  .section-from {
+    padding: 7.6rem 0;
+  }
 }
 .section-from .form {
   display: flex;
@@ -617,6 +646,7 @@ body {
   cursor: pointer;
   transition: all 0.4s;
   font-size: 1.6rem;
+  align-self: flex-start;
 }
 .section-from .form .btn:hover {
   background-color: #2c66c3;
