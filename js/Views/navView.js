@@ -1,7 +1,7 @@
 class NavView {
   _btnOpen = document.querySelector(".btn-mobile-nav");
   _btnClose = document.querySelector(".close-nav");
-  _allLinks = document.querySelectorAll(".main-nav-link:link");
+  _allLinks = document.querySelectorAll("a:link");
 
   mobileNavigationHandler() {
     this._btnOpen.addEventListener("click", function () {
@@ -13,9 +13,7 @@ class NavView {
     this._allLinks.forEach((link) => {
       link.addEventListener("click", function (e) {
         e.preventDefault();
-
         const href = link.getAttribute("href");
-        console.log(href);
 
         if (href === "#")
           window.scrollTo({
