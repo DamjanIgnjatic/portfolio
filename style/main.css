@@ -636,6 +636,7 @@ body {
   padding: 1rem 0 10rem 1rem;
   border-radius: 9px;
   border: none;
+  font-size: 1.5rem;
 }
 .section-from .form .btn {
   padding: 1rem 2rem;
