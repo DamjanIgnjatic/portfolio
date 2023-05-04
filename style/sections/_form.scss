@@ -11,7 +11,8 @@
     align-items: center;
 
     div {
-      width: 50%;
+      max-width: 80rem;
+      width: 100%;
       label {
         display: block;
         margin-bottom: 1rem;
@@ -26,7 +27,7 @@
 
       textarea {
         width: 100%;
-        padding: 1rem 0 5rem 1rem;
+        padding: 1rem 0 10rem 1rem;
         border-radius: 9px;
         border: none;
       }
@@ -40,6 +41,7 @@
       border: none;
       cursor: pointer;
       transition: all 0.4s;
+      font-size: 1.6rem;
 
       &:hover {
         background-color: $nav-link-hover;
