@@ -1,6 +1,7 @@
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 
+import "core-js/stable";
 import * as model from "./model";
 import projectView from "./Views/projectView";
 import modalView from "./Views/modalView";
