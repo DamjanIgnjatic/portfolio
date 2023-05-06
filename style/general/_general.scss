@@ -15,7 +15,7 @@ html {
 body {
   line-height: 1;
   color: $main-white;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   background: $background-color;
   overflow-x: hidden;
@@ -41,6 +41,7 @@ body {
   font-size: 4rem;
   position: relative;
   margin-bottom: 3.5rem;
+  line-height: $line-height-3;
   @media (max-width: 576px) {
     font-size: 3.6rem;
   }
@@ -136,6 +137,7 @@ body {
       .project-title {
         font-size: 3.2rem;
         color: $main-white;
+        line-height: $line-height-2;
 
         @media (max-width: 768px) {
           font-size: 3rem;
@@ -155,6 +157,16 @@ body {
         color: $main-white;
         font-size: 2rem;
         align-self: flex-start;
+        line-height: $line-height-1;
+
+        @media (max-width: 768px) {
+          font-size: 1.8rem;
+        }
+
+        @media (max-width: 420px) {
+          font-size: 1.6rem;
+          line-height: $line-height;
+        }
       }
     }
 
@@ -178,6 +190,7 @@ body {
           padding: 1rem 0rem;
           background-color: $background-link;
           text-decoration: none;
+          line-height: $line-height-1;
           border-radius: 5px;
           display: flex;
           align-items: center;

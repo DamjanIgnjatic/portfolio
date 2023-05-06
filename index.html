@@ -8,10 +8,20 @@
       name="description"
       content="Welcome to my portfolio website! As a junior frontend developer, I am passionate about crafting beautiful and intuitive web experiences. Explore my projects to see my skills in action and get a sense of my design aesthetic. From responsive layouts to interactive animations, I am committed to delivering high-quality code that elevates user experiences. Let's collaborate and bring your web vision to life!"
     />
+
+    <!-- FAVICOM -->
     <link href="style/main.css" rel="stylesheet" />
     <link rel="apple-touch-icon" href="./favicons/favicon-ios-home.png" />
     <link rel="icon" href="./favicons/favicon-browsers.png" />
     <link rel="mainfest" href="manifest.webmanifest" />
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Rajdhani:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Damjan Ignjatić</title>
 
@@ -19,6 +29,10 @@
   </head>
   <body>
     <header class="header">
+      <a href="#" class="header-logo">
+        <img src="./img/d-logo.png" alt="Damjan Logo" />
+      </a>
+
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#projects">Projects</a></li>
@@ -226,7 +240,7 @@
           </div>
 
           <form class="form" name="contact" action="#" netlify>
-            <div class="name">
+            <div>
               <label for="full-name">Name</label>
               <input
                 id="full-name"
@@ -237,7 +251,7 @@
               />
             </div>
 
-            <div class="mail">
+            <div>
               <label for="email">Email</label>
               <input
                 id="email"
@@ -248,7 +262,7 @@
               />
             </div>
 
-            <div class="message">
+            <div>
               <label for="message">Message</label>
               <textarea
                 id="message"

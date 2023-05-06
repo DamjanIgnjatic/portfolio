@@ -3,8 +3,8 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: end;
-  height: 8rem;
+  justify-content: space-between;
+  height: 9.6rem;
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0.5) 0%,
@@ -12,6 +12,18 @@
     rgba(0, 0, 0, 0) 100%
   );
   position: relative;
+  padding: 3.2rem;
+
+  .header-logo {
+    z-index: 99999;
+    img {
+      height: 8rem;
+
+      @media (max-width: 575px) {
+        height: 6rem;
+      }
+    }
+  }
 
   .main-nav {
     @media (max-width: 996px) {
@@ -20,7 +32,8 @@
       left: 0;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
+
       opacity: 0;
       visibility: hidden;
       pointer-events: none;
@@ -34,18 +47,22 @@
       display: flex;
       gap: 2.6rem;
       list-style: none;
-      margin-right: 2rem;
       @media (max-width: 996px) {
-        padding-top: 6rem;
+        margin-top: 10rem;
         flex-direction: column;
+        gap: 4rem;
       }
 
       li {
         font-size: 2rem;
         align-self: center;
         padding: 0.8rem 1.6rem;
+        @media (max-width: 996px) {
+          padding: 0;
+        }
 
         .main-nav-link {
+          line-height: $line-height-1;
           &:link,
           &:visited {
             color: $main-white;
@@ -55,6 +72,7 @@
             @media (max-width: 996px) {
               font-size: 4rem;
               padding-top: 6rem;
+              line-height: $line-height-3;
             }
           }
 

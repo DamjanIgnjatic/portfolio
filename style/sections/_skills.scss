@@ -50,6 +50,7 @@
           p {
             font-size: 2rem;
             color: $main-white;
+            line-height: $line-height-1;
 
             @media (max-width: 576px) {
               font-size: 1.6rem;

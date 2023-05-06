@@ -1,4 +1,3 @@
-const project = document.querySelectorAll(".project");
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 
@@ -22,13 +21,13 @@ const init = function () {
 
 init();
 
-const closeModal = function () {
-  modal.classList.add("hidden");
-  overlay.classList.add("hidden");
-  // document.querySelector("html").style.overflow = "unset";
-};
+// const closeModal = function () {
+//   modal.classList.add("hidden");
+//   overlay.classList.add("hidden");
+//   // document.querySelector("html").style.overflow = "unset";
+// };
 
-overlay.addEventListener("click", closeModal);
+// overlay.addEventListener("click", closeModal);
 
 document.addEventListener("keydown", function (e) {
   if (e.key === "Escape" && !modal.classList.contains("hidden")) {

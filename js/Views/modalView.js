@@ -3,6 +3,8 @@ import gitIcon from "../../img/GitHub.png";
 
 class ModalView {
   _parentElement = document.querySelector(".modal");
+  _modal = document.querySelector(".modal");
+  _overlay = document.querySelector(".overlay");
   data;
 
   render(data) {
@@ -20,6 +22,39 @@ class ModalView {
   _clear() {
     this._parentElement.innerHTML = "";
   }
+
+  _addHandlerCloseModal() {
+    this._modal.classList.toggle("hidden");
+    this._overlay.classList.toggle("hidden");
+  }
+
+  _closeModal() {
+    this._overlay.addEventListener(
+      "click",
+      this._addHandlerCloseModal.bind(this)
+    );
+  }
+
+  _addHandlerCloseModalKey() {
+    document.addEventListener(
+      "keydown",
+      function (e) {
+        if (e.key === "Escape" && !this._modal.classList.contains("hidden"))
+          this._addHandlerCloseModal();
+      }.bind(this)
+    );
+  }
+
+  constructor() {
+    this._closeModal();
+    this._addHandlerCloseModalKey();
+  }
+
+  // document.addEventListener("keydown", function (e) {
+  //   if (e.key === "Escape" && !modal.classList.contains("hidden")) {
+  //     closeModal();
+  //   }
+  // });
 
   _generateMarkup() {
     return `
