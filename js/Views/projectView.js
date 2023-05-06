@@ -2,6 +2,7 @@ import icon from "../../img/icon.png";
 
 class ProjectView {
   _parentElement = document.querySelector(".projects");
+  _sectionHero = document.querySelector(".section-hero");
   data;
 
   render(data) {
@@ -10,6 +11,33 @@ class ProjectView {
     const markup = this._generateMarkup();
     this._clear();
     this._parentElement.insertAdjacentHTML("afterbegin", markup);
+  }
+
+  _headerSticky() {
+    const obs = new IntersectionObserver(
+      function (entries) {
+        const ent = entries[0];
+
+        if (ent.isIntersecting === false) {
+          document.body.classList.add("sticky");
+        }
+
+        if (ent.isIntersecting === true) {
+          document.body.classList.remove("sticky");
+        }
+      },
+      {
+        root: null,
+        threshold: 0,
+        rootMargin: "-80px",
+      }
+    );
+
+    obs.observe(this._sectionHero);
+  }
+
+  constructor() {
+    this._headerSticky();
   }
 
   addHandlerRedner(handler) {
