@@ -365,6 +365,11 @@ body {
   position: relative;
   padding: 3.2rem;
 }
+@media (max-width: 420px) {
+  .header {
+    padding: 1.6rem;
+  }
+}
 .header .header-logo {
   z-index: 99999;
 }

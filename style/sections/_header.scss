@@ -13,6 +13,9 @@
   );
   position: relative;
   padding: 3.2rem;
+  @media (max-width: 420px) {
+    padding: 1.6rem;
+  }
 
   .header-logo {
     z-index: 99999;
