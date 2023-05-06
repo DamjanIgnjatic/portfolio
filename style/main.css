@@ -53,7 +53,7 @@ body {
   height: 1rem;
   background: #2c66c3;
   position: absolute;
-  bottom: -55%;
+  bottom: -40%;
   box-shadow: 0 0 1.4rem rgba(44, 102, 195, 0.5019607843);
   left: 50%;
   transform: translate(-50%, -50%);
@@ -449,7 +449,6 @@ body {
   .header .btn-mobile-nav {
     display: block;
     z-index: 999;
-    margin-right: 2rem;
   }
 }
 .header .btn-mobile-nav .close-nav {
