@@ -20,7 +20,8 @@ export const state = {
       title: "Omnifood",
       image: omniFoodImage,
       imageAlt: "Omnifood Website Image",
-      description: "TEST 4",
+      description:
+        "This is a single-page website for meal ordering. It allows users to select their preferred meals using an intuitive interface, and then place an order for delivery. The website is designed to be responsive and accessible, ensuring a seamless user experience.",
       gitUrl: "https://github.com/DamjanIgnjatic/omnifood-project",
       webUrl: "https://omnifood-project-damjan.netlify.app/",
     },
