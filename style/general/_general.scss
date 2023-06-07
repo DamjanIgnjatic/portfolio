@@ -239,3 +239,22 @@ body {
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.disable-scroll {
+  overflow: hidden;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100 + 1px);
+}
+
+body.enable-scroll {
+  height: auto;
+  overflow-y: visible;
+}
+
+.enable-scroll .section-intro {
+  display: none;
+}

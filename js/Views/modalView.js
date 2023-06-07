@@ -50,12 +50,6 @@ class ModalView {
     this._addHandlerCloseModalKey();
   }
 
-  // document.addEventListener("keydown", function (e) {
-  //   if (e.key === "Escape" && !modal.classList.contains("hidden")) {
-  //     closeModal();
-  //   }
-  // });
-
   _generateMarkup() {
     return `
        <div class="modal-content" data-id=${this._data.id}>
