@@ -18,6 +18,7 @@
     .hero-description {
       justify-self: center;
       align-self: center;
+      animation: slide 5s infinite;
       .description-header {
         display: flex;
         align-items: center;

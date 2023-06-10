@@ -262,6 +262,32 @@ body.enable-scroll {
 }
 
 /*COLORS*/
+@keyframes intro {
+  0% {
+    height: 0;
+  }
+  50% {
+    bottom: 0;
+    height: 100%;
+  }
+  to {
+    bottom: 100%;
+  }
+}
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-150%);
+  }
+}
+.intro-animation-content {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.6s ease-in;
+}
+
 /*COLORS*/
 .section-hero {
   padding: 9.6rem 0;
@@ -285,6 +311,7 @@ body.enable-scroll {
 .section-hero .content .hero-description {
   justify-self: center;
   align-self: center;
+  animation: slide 5s infinite;
 }
 .section-hero .content .hero-description .description-header {
   display: flex;
@@ -487,7 +514,7 @@ body.enable-scroll {
 @media (max-width: 996px) {
   .header .btn-mobile-nav {
     display: block;
-    z-index: 999;
+    z-index: 99;
   }
 }
 .header .btn-mobile-nav .close-nav {
@@ -779,21 +806,46 @@ body.enable-scroll {
   text-align: center;
 }
 .section-intro h2 {
-  font-size: 8rem;
+  font-size: 6.6rem;
   text-align: center;
-  transform: translateY(30px);
-  opacity: 0;
-  transition: all 0.3s ease-in;
 }
 .section-intro h2 span {
   color: #2cb67d;
 }
-.section-intro p {
+@media (max-width: 996px) {
+  .section-intro h2 {
+    font-size: 5.6rem;
+  }
+}
+@media (max-width: 786px) {
+  .section-intro h2 {
+    font-size: 3.6rem;
+  }
+}
+.section-intro .intro-image {
+  max-width: 30rem;
+  width: 100%;
+  max-height: 30rem;
+  height: auto;
+  margin-bottom: 5rem;
+}
+.section-intro .subtitle {
   font-size: 3.2rem;
-  line-height: 38px;
-  transform: translateY(30px);
-  opacity: 0;
-  transition: all 0.3s ease-in;
+  line-height: 3.8rem;
+}
+.section-intro .subtitle span {
+  color: #2cb67d;
+}
+@media (max-width: 996px) {
+  .section-intro .subtitle {
+    font-size: 2.8rem;
+    line-height: 2.3rem;
+  }
+}
+@media (max-width: 575px) {
+  .section-intro .subtitle {
+    font-size: 2.2rem;
+  }
 }
 
 .intro-animation .section-intro::before {
@@ -803,19 +855,6 @@ body.enable-scroll {
 .intro-animation .section-intro .content {
   opacity: 0;
   transition: 0s linear 0.75s;
-}
-
-@keyframes intro {
-  0% {
-    height: 0;
-  }
-  50% {
-    bottom: 0;
-    height: 100%;
-  }
-  to {
-    bottom: 100%;
-  }
 }
 
 /*# sourceMappingURL=main.css.map */
