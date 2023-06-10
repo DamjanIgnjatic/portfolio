@@ -60,6 +60,10 @@
     max-height: 30rem;
     height: auto;
     margin-bottom: 5rem;
+
+    @media (max-width: 576px) {
+      max-width: 20rem;
+    }
   }
 
   .subtitle {

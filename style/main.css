@@ -829,6 +829,11 @@ body.enable-scroll {
   height: auto;
   margin-bottom: 5rem;
 }
+@media (max-width: 576px) {
+  .section-intro .intro-image {
+    max-width: 20rem;
+  }
+}
 .section-intro .subtitle {
   font-size: 3.2rem;
   line-height: 3.8rem;

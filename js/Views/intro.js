@@ -12,29 +12,31 @@ class Intro {
     if (!storage) {
       this.body.classList.add("disable-scroll");
 
-      this.introHeading.style.opacity = 1;
-      this.introHeading.style.transform = `translateX(${this.translationValue}px)`;
+      setTimeout(() => {
+        this.introHeading.style.opacity = 1;
+        this.introHeading.style.transform = `translateX(${this.translationValue}px)`;
+      }, 1000);
 
       setTimeout(() => {
         this.introImage.style.opacity = 1;
         this.introImage.style.transform = `translateX(${this.translationValue}px)`;
-      }, 1000);
+      }, 2500);
 
       setTimeout(() => {
         this.subtitle.style.opacity = 1;
         this.subtitle.style.transform = `translateX(${this.translationValue}px)`;
-      }, 2000);
+      }, 4000);
 
       setTimeout(() => {
         this.body.classList.add("intro-animation");
-      }, 4500);
+      }, 6500);
 
       setTimeout(() => {
         this.body.classList.remove("disable-scroll");
         this.body.classList.remove("intro-animation");
         this.body.classList.add("enable-scroll");
         localStorage.setItem("intro", true);
-      }, 6500);
+      }, 7500);
     } else {
       this.sectionIntro.style.display = "none";
     }
