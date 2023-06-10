@@ -36,7 +36,7 @@ class Intro {
         this.body.classList.remove("intro-animation");
         this.body.classList.add("enable-scroll");
         localStorage.setItem("intro", true);
-      }, 7500);
+      }, 8500);
     } else {
       this.sectionIntro.style.display = "none";
     }
