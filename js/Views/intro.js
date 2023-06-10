@@ -6,10 +6,19 @@ class Intro {
   translationValue = 0;
   body = document.querySelector("body");
 
+  clearStorage() {
+    let session = sessionStorage.getItem("register");
+
+    if (session == null) {
+      localStorage.removeItem("intro");
+    }
+    sessionStorage.setItem("register", 1);
+  }
+
   intro() {
     const storage = localStorage.getItem("intro");
 
-    if (!storage) {
+    if (!storage && !sessionStorage.getItem("reload")) {
       this.body.classList.add("disable-scroll");
 
       setTimeout(() => {
@@ -43,7 +52,12 @@ class Intro {
   }
 
   constructor() {
+    this.clearStorage();
     this.intro();
+
+    window.addEventListener("beforeunload", () => {
+      sessionStorage.setItem("reload", true);
+    });
   }
 }
 
