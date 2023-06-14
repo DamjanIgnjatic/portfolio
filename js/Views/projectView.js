@@ -3,6 +3,7 @@ import icon from "../../img/icon.png";
 class ProjectView {
   _parentElement = document.querySelector(".projects");
   _sectionHero = document.querySelector(".section-hero");
+
   data;
 
   render(data) {
@@ -52,6 +53,7 @@ class ProjectView {
       document.querySelector(".modal").classList.remove("hidden");
       document.querySelector(".overlay").classList.remove("hidden");
       // document.querySelector("html").style.overflow = "hidden";
+
       handler(id);
     });
   }

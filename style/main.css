@@ -99,13 +99,9 @@ body {
     padding: 2rem 3rem;
   }
 }
-@media (max-width: 420px) {
-  .modal {
-    padding: 1rem 2rem;
-  }
-}
 .modal .modal-content {
   background-color: #1e293b;
+  position: relative;
   padding: 2rem 5rem;
   border-radius: 12px;
 }
@@ -116,7 +112,25 @@ body {
 }
 @media (max-width: 420px) {
   .modal .modal-content {
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
+  }
+}
+.modal .modal-content .icon-close-modal {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+}
+@media (max-width: 786px) {
+  .modal .modal-content .icon-close-modal {
+    right: 3px;
+  }
+}
+@media (max-width: 420px) {
+  .modal .modal-content .icon-close-modal {
+    right: 0px;
+    top: 0;
   }
 }
 .modal .modal-header {
