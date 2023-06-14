@@ -27,21 +27,21 @@ class ModalView {
     this._parentElement.innerHTML = "";
   }
 
+  _toggleModal() {
+    this._modal.classList.add("hidden");
+    this._overlay.classList.add("hidden");
+    if (this._iconClose) {
+      this._iconClose.classList.toggle("hidden");
+    }
+    document.body.classList.add("sticky");
+  }
+
   _addHandlerCloseModal() {
     this._overlay.addEventListener("click", this._toggleModal.bind(this));
 
     if (this._iconClose) {
       this._iconClose.addEventListener("click", this._toggleModal.bind(this));
     }
-  }
-
-  _toggleModal() {
-    this._modal.classList.toggle("hidden");
-    this._overlay.classList.toggle("hidden");
-    if (this._iconClose) {
-      this._iconClose.classList.toggle("hidden");
-    }
-    document.body.classList.add("sticky");
   }
 
   _addHandlerCloseModalKey() {

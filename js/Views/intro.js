@@ -29,7 +29,7 @@ class Intro {
       setTimeout(() => {
         this.introImage.style.opacity = 1;
         this.introImage.style.transform = `translateX(${this.translationValue}px)`;
-      }, 2500);
+      }, 2000);
 
       setTimeout(() => {
         this.subtitle.style.opacity = 1;
