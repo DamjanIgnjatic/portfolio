@@ -50,6 +50,7 @@ class ProjectView {
       if (!btn) return;
       const id = +btn.dataset.projectid;
       document.querySelector(".modal").classList.remove("hidden");
+      document.body.classList.remove("sticky");
       document.querySelector(".overlay").classList.remove("hidden");
       // document.querySelector("html").style.overflow = "hidden";
 

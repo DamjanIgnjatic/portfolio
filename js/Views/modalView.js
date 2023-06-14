@@ -41,6 +41,7 @@ class ModalView {
     if (this._iconClose) {
       this._iconClose.classList.toggle("hidden");
     }
+    document.body.classList.add("sticky");
   }
 
   _addHandlerCloseModalKey() {
