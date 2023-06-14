@@ -11,7 +11,6 @@ class ModalView {
   data;
 
   render(data) {
-    console.log(data);
     this._data = data;
     const markup = this._generateMarkup();
     this._clear();

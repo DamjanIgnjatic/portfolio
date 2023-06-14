@@ -7,7 +7,6 @@ class ProjectView {
   data;
 
   render(data) {
-    console.log(data);
     this._data = data;
     const markup = this._generateMarkup();
     this._clear();
@@ -66,7 +65,6 @@ class ProjectView {
     return `
     ${this._data
       .map((project) => {
-        console.log(project);
         return `<div class="project" data-projectid="${project.id}">
       <img
         class="project-image"
