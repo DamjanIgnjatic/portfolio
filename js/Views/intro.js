@@ -34,18 +34,18 @@ class Intro {
       setTimeout(() => {
         this.subtitle.style.opacity = 1;
         this.subtitle.style.transform = `translateX(${this.translationValue}px)`;
-      }, 4000);
+      }, 3000);
 
       setTimeout(() => {
         this.body.classList.add("intro-animation");
-      }, 6500);
+      }, 5000);
 
       setTimeout(() => {
         this.body.classList.remove("disable-scroll");
         this.body.classList.remove("intro-animation");
         this.body.classList.add("enable-scroll");
         localStorage.setItem("intro", true);
-      }, 8500);
+      }, 7000);
     } else {
       this.sectionIntro.style.display = "none";
     }
